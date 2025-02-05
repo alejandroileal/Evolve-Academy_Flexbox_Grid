@@ -38,6 +38,13 @@ p {
   border-radius: 100px;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
 @media (min-width: 600px) {
   section {
     display: flex;
